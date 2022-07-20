@@ -1,0 +1,76 @@
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+    background-color: black;
+    padding: 40px;
+}
+.flexible-container h1{
+    color: white;
+
+}
+.flexible-container p{
+    color: white;
+}
+
+.link-button{
+    text-decoration: none;
+   background-color: red;
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+
+
+.gridContainer{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    
+    
+}
+
+.rose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 1300px;
+    height: 400px;
+}
+.rose h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+    
+}
+.rose  .tt{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   
+     
+
+}
+
+
+
+   
+
+
+
+    
+
+
+
+    
+
